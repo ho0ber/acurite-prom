@@ -1,0 +1,7 @@
+[Unit]
+Description=AcuRite Prometheus Bridge
+[Service]
+Type=simple
+ExecStart=/bin/bash /deploy/acurite-prom/run.sh
+[Install]
+WantedBy=multi-user.target
